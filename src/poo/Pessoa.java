@@ -1,10 +1,13 @@
 package poo;
 
 public class Pessoa {
-    String nome; // = "Marcelo";
+    protected String nome;
+
+    public Pessoa(String nome, Object o) {
+    }
 
 
     void mensagem(){
-        System.out.printf("Ola, Mundo, como esta %s ", nome);
+        System.out.printf("Olá, Mundi, como está %s ", nome);
     }
 }
